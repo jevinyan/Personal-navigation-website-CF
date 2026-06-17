@@ -1,0 +1,14 @@
+{
+  "name": "nav-item-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Nav-Item static site backend",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy index.js",
+    "dev": "wrangler dev index.js",
+    "preview": "wrangler preview index.js"
+  },
+  "dependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "nav-item-frontend",
+  "version": "1.0.0",
+  "author": "Jevin",
+  "description": "Personal-navigation",
+  "repository": "https://github.com/jevinyan/Personal-navigation-website-CF",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.6"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

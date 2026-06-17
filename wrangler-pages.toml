@@ -1,0 +1,9 @@
+# Pages 配置文件
+name = "nav-item-frontend"
+pages_build_output_dir = "../web/dist"
+
+[build]
+command = "cd web && npm install && npm run build"
+
+[env]
+production = { branch = "main" }

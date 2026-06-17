@@ -1,0 +1,18 @@
+name = "nav-item-worker"
+main = "index.js"
+compatibility_date = "2026-06-17"
+
+[vars]
+# 默认管理员账户（首次部署后可修改）
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "admin123"
+
+[[kv_namespaces]]
+binding = "NAV_ITEM_DATA"
+id = "你的ID"
+preview_id = "你的ID"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nav-item-db"
+database_id = "你的ID"
